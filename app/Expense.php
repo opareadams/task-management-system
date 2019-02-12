@@ -1,0 +1,18 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Expense extends Model
+{
+    protected $dates = ['purchase_date'];
+
+    public function currency(){
+        return $this->belongsTo(Currency::class, 'currency_id');
+    }
+
+    public function user(){
+        return $this->belongsTo(User::class, 'user_id')->withoutGlobalScopes(['active']);
+    }
+}
