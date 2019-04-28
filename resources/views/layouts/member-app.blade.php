@@ -264,7 +264,7 @@
                     <!-- Logo icon image, you can use font-icon also -->
                         @if(is_null($global->logo))
                         <!--This is dark logo icon-->
-                            <img src="{{ asset('Melcom_Logo_Small.png') }}" alt="home" class=" member-logo" />
+                            <img src="{{ asset('worksuite-logo.png') }}" alt="home" class=" member-logo" />
                         @else
                             <img src="{{ asset('user-uploads/app-logo/'.$global->logo) }}" alt="home"  />
                         @endif

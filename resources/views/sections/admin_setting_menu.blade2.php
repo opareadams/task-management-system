@@ -3,7 +3,7 @@
         <a href="{{ route('admin.settings.index') }}">@lang('app.menu.accountSettings')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.profile-settings.index') active @endif">
         <a href="{{ route('admin.profile-settings.index') }}">@lang('app.menu.profileSettings')</a></li>
-   <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.email-settings.index') active @endif">
+   <!-- <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.email-settings.index') active @endif">
         <a href="{{ route('admin.email-settings.index') }}">@lang('app.menu.emailSettings')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.currency.index') active @endif">
         <a href="{{ route('admin.currency.index') }}">@lang('app.menu.currencySettings')</a></li>
@@ -27,17 +27,17 @@
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.custom-fields.index') active @endif">
         <a href="{{ route('admin.custom-fields.index') }}">@lang('app.menu.customFields')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.module-settings.index') active @endif">
-        <a href="{{ route('admin.module-settings.index') }}">@lang('app.menu.moduleSettings')</a></li> 
+        <a href="{{ route('admin.module-settings.index') }}">@lang('app.menu.moduleSettings')</a></li> -->
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.role-permission.index') active @endif">
         <a href="{{ route('admin.role-permission.index') }}">@lang('app.menu.rolesPermission')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.message-settings.index') active @endif">
         <a href="{{ route('admin.message-settings.index') }}">@lang('app.menu.messageSettings')</a></li>
-    <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.storage-settings.index') active @endif">
+   <!-- <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.storage-settings.index') active @endif">
         <a href="{{ route('admin.storage-settings.index') }}">@lang('app.menu.storageSettings')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.language-settings.index') active @endif">
         <a href="{{ route('admin.language-settings.index') }}">@lang('app.language') @lang('app.menu.settings')</a></li>
     <li class="tab @if(\Illuminate\Support\Facades\Route::currentRouteName() == 'admin.lead-source-settings.index') active @endif">
-        <a href="{{ route('admin.lead-source-settings.index') }}">@lang('app.lead') @lang('app.menu.settings')</a></li> 
+        <a href="{{ route('admin.lead-source-settings.index') }}">@lang('app.lead') @lang('app.menu.settings')</a></li> -->
 </ul>
 
 <script src="{{ asset('plugins/bower_components/jquery/dist/jquery.min.js') }}"></script>

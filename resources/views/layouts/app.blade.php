@@ -266,7 +266,7 @@
                 <a class="logo hidden-xs hidden-sm text-center" href="{{ route('admin.dashboard') }}">
                     @if(is_null($global->logo))
                             <!--This is dark logo icon-->
-                    <img src="{{ asset('Melcom_Logo_Small.png') }}" alt="home" class=" admin-logo"/>
+                    <img src="{{ asset('worksuite-logo.png') }}" alt="home" class=" admin-logo"/>
                     @else
                         <img src="{{ asset('user-uploads/app-logo/'.$global->logo) }}" alt="home" />
                     @endif
